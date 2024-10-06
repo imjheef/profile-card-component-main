@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	background: url(./images/bg-pattern-top.svg) no-repeat,
+		url(./images/bg-pattern-bottom.svg) no-repeat;
+	background-position: -25vw -45vh, 60vw 45vh;
+	background-color: hsl(185, 75%, 39%);
+}
+
+.profile-img {
+	border: solid 5px white;
+	border-radius: 100px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	width: 400px;
+	border: solid red 2px;
+	background-image: url(./images/bg-pattern-card.svg);
+	background-repeat: no-repeat;
+	background-color: white;
+	background-size: 400px;
+	border-radius: 18px;
+}
+
+.stats {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+hr {
+	width: 100%;
+}
+
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
