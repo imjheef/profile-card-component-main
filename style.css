@@ -34,29 +34,34 @@ body {
 	flex-direction: column;
 	height: 400px;
 	width: 400px;
-	border: solid red 2px;
 	background-image: url(./images/bg-pattern-card.svg);
 	background-repeat: no-repeat;
 	background-color: white;
 	background-size: 400px;
 	border-radius: 18px;
-	box-shadow: var(--very-dark-desaturated-blue) 0px 50px 150px -20px;
+	box-shadow: var(--very-dark-desaturated-blue) 0px 40px 160px -30px;
+	font-family: 'Kumbh Sans', sans-serif;
 }
 
 .stats {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-self: center;
+	align-self: center;
+}
+
+.stats p {
+	font-weight: 400;
 }
 
 hr {
 	width: 100%;
-
 	color: var(--dark-gray);
 }
 
 /* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
 .attribution {
+	position: absolute;
+	bottom: 0px;
 	font-size: 11px;
 	text-align: center;
 }
