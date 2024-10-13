@@ -25,15 +25,18 @@ body {
 }
 
 .profile-img {
+	position: relative;
+	top: 24px;
 	border: solid 5px white;
 	border-radius: 100px;
+	margin-bottom: 22px;
 }
 
 .card {
 	display: flex;
 	flex-direction: column;
 	height: 400px;
-	width: 400px;
+	width: 350px;
 	background-image: url(./images/bg-pattern-card.svg);
 	background-repeat: no-repeat;
 	background-color: white;
@@ -43,14 +46,39 @@ body {
 	font-family: 'Kumbh Sans', sans-serif;
 }
 
+.info {
+	display: flex;
+	gap: 12px;
+	color: var(--very-dark-desaturated-blue);
+	padding: 12px 0;
+	margin-bottom: 24px;
+}
+
+.info p {
+	color: var(--dark-grayish-blue);
+	font-size: 20px;
+}
+
 .stats {
 	display: flex;
-	justify-self: center;
-	align-self: center;
+	width: 100%;
+	padding: 24px 0;
+	/* height: ; */
+	border: red solid 1px;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.stats h1 {
+	color: var(--very-dark-desaturated-blue);
+	margin-bottom: 4px;
 }
 
 .stats p {
+	text-align: center;
+	font-size: 10px;
 	font-weight: 400;
+	letter-spacing: 2px;
 }
 
 hr {

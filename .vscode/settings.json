@@ -1,0 +1,19 @@
+{
+    "fiveServer.highlight": true,
+    "fiveServer.injectBody": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.codeLensFontSize": 10,
+    "editor.experimentalInlineEdit.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+    "editor.inlayHints.fontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+    "editor.inlayHints.fontSize": 10,
+    "editor.fontLigatures": true,
+    "editor.codeLensFontFamily": "'Cascadia Code',Consolas, 'Courier New', monospace",
+    "workbench.reduceMotion": "off",
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.mouseWheelZoom": true
+}
