@@ -8,6 +8,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 	justify-content: center;
 	align-items: center;
 }
@@ -19,54 +20,57 @@ body {
 	height: 100vh;
 	background: url(./images/bg-pattern-top.svg) no-repeat,
 		url(./images/bg-pattern-bottom.svg) no-repeat;
-	background-position: -22vw -64vh, 50vw 40vh;
+	background-position: -20vw -40vh, 50vw 40vh;
 	background-color: hsl(185, 75%, 39%);
-	background-size: 1300px, 1300px;
-}
-
-.profile-img {
-	position: relative;
-	top: 24px;
-	border: solid 5px white;
-	border-radius: 100px;
-	margin-bottom: 22px;
 }
 
 .card {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	height: 400px;
-	width: 350px;
+	width: 360px;
+	font-family: 'Kumbh Sans', sans-serif;
 	background-image: url(./images/bg-pattern-card.svg);
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: white;
-	background-size: 400px;
 	border-radius: 18px;
 	box-shadow: var(--very-dark-desaturated-blue) 0px 40px 160px -30px;
-	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.profile-img {
+	position: relative;
+	top: 90px;
+	border: solid 5px white;
+	border-radius: 100px;
+	margin-bottom: 2px;
 }
 
 .info {
 	display: flex;
+	flex-wrap: wrap;
+	font-size: 12px;
+	width: 150px;
 	gap: 12px;
+	margin-top: 90px;
 	color: var(--very-dark-desaturated-blue);
-	padding: 12px 0;
-	margin-bottom: 24px;
 }
 
 .info p {
+	font-size: 16px;
+	font-weight: 500;
 	color: var(--dark-grayish-blue);
-	font-size: 20px;
 }
 
 .stats {
 	display: flex;
-	width: 100%;
-	padding: 24px 0;
-	/* height: ; */
-	border: red solid 1px;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	text-align: center;
+	font-size: 14px;
+	height: 100px;
+	width: 100%;
+	border-top: 1px solid lightgray;
 }
 
 .stats h1 {
@@ -79,11 +83,6 @@ body {
 	font-size: 10px;
 	font-weight: 400;
 	letter-spacing: 2px;
-}
-
-hr {
-	width: 100%;
-	color: var(--dark-gray);
 }
 
 /* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
